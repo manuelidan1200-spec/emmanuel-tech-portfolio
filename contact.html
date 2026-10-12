@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Emmanuel Idan Tagoe about technology, projects, and collaboration.">
+    <title>Contact | Emmanuel Idan Tagoe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="site-header">
+    <a href="index.html" class="logo" aria-label="Emmanuel Idan Tagoe home">EIT<span>.</span></a>
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <a href="mailto:idantagoe1200@gmail.com" class="header-contact">LET'S CONNECT ↗</a>
+</header>
+
+<main class="page-main">
+    <section class="slide contact-page">
+        <div class="contact-top">
+            <p class="eyebrow">THANK YOU FOR VISITING</p>
+            <span class="contact-mark" aria-hidden="true">EIT.</span>
+        </div>
+
+        <div class="contact-main">
+            <h1>LET'S BUILD<br>SOMETHING<br><span>GREAT.</span></h1>
+            <div class="contact-copy">
+                <p>I'm learning, creating, and working toward becoming a well-rounded technology professional.</p>
+                <p>Want to discuss a project, share an opportunity, or simply connect? Reach me by email or through one of my social profiles below.</p>
+                <a href="mailto:idantagoe1200@gmail.com" class="button button-light">EMAIL ME ↗</a>
+            </div>
+        </div>
+
+        <!-- FormSubmit forwards submissions to your email after you verify the address. -->
+        <form
+            class="contact-form"
+            id="contact-form"
+            action="https://formsubmit.co/idantagoe1200@gmail.com"
+            method="POST"
+        >
+            <h2>Send a message</h2>
+
+            <!-- Email subject and email layout settings -->
+            <input type="hidden" name="_subject" value="New message from your portfolio">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="true">
+
+            <div class="form-grid">
+                <div>
+                    <label for="name">Your name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        autocomplete="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+                <div>
+                    <label for="email">Your email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+            </div>
+
+            <label for="message">Your message</label>
+            <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Write your message here..."
+                required
+            ></textarea>
+
+            <button type="submit" class="button button-light">SEND MESSAGE ↗</button>
+            <p class="form-note" id="form-note">
+                Your message will be forwarded to my email through FormSubmit after I verify the address.
+                Please provide a valid email address so I can reply to you.
+            </p>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <section class="contact-social" aria-labelledby="social-heading">
+            <h2 id="social-heading">FIND ME ONLINE</h2>
+            <p class="social-intro">Connect with me across my technology, personal, and content-creation platforms.</p>
+            <div class="social-links" aria-label="Social media profiles">
+                <a href="https://github.com/manuelidan1200-spec" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile (opens in a new tab)">GITHUB ↗</a>
+                <a href="https://www.linkedin.com/in/emmanuel-idan-tagoe-34654937b?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile (opens in a new tab)">LINKEDIN ↗</a>
+                <a href="https://x.com/ManuelIdan6314" target="_blank" rel="noopener noreferrer" aria-label="X profile (opens in a new tab)">X ↗</a>
+                <a href="https://instagram.com/isthat_mr.manuel?obrf=ZTlobHo5d3prcjRk" target="_blank" rel="noopener noreferrer" aria-label="Personal Instagram profile (opens in a new tab)">INSTAGRAM ↗</a>
+                <a href="https://www.facebook.com/profile.php?id=100079896462451&amp;mibextid=rS40aB7S9Ucbxw6v" target="_blank" rel="noopener noreferrer" aria-label="Facebook profile (opens in a new tab)">FACEBOOK ↗</a>
+                <a href="https://wa.me/message/V5UAJK2RC627J1" target="_blank" rel="noopener noreferrer" aria-label="Contact me on WhatsApp (opens in a new tab)">WHATSAPP ↗</a>
+                <a href="https://youtube.com/@emmanuelidantagoe?si=1smwS9dG3gSAjs4n" target="_blank" rel="noopener noreferrer" aria-label="YouTube channel (opens in a new tab)">YOUTUBE ↗</a>
+                <a href="https://tiktok.com/@isthat_mr.manuel" target="_blank" rel="noopener noreferrer" aria-label="Personal TikTok profile (opens in a new tab)">PERSONAL TIKTOK ↗</a>
+                <a href="https://tiktok.com/@gospel.haven" target="_blank" rel="noopener noreferrer" aria-label="Gospel Haven TikTok profile (opens in a new tab)">GOSPELHAVEN TIKTOK ↗</a>
+            </div>
+            <div class="social-handles" aria-label="Other social media handles">
+                <p><strong>Telegram:</strong> Mr.Kukus</p>
+                <p><strong>Discord:</strong> Mr.kukus</p>
+            </div>
+        </section>
+
+        <div class="contact-bottom">
+            <a href="mailto:idantagoe1200@gmail.com" class="contact-email">IDANTAGOE1200@GMAIL.COM</a>
+            <span>EMMANUEL IDAN TAGOE</span>
+            <span>© <span data-year>2026</span></span>
+        </div>
+        <div class="slide-label">LET'S CONNECT</div>
+    </section>
+</main>
+<script src="script.js" defer></script>
+</body>
+</html>
